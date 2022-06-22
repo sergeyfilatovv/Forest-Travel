@@ -1,0 +1,76 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;     /*sticky footer*/
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;    /*sticky footer*/
+    flex-direction: column;    /*sticky footer*/
+    height: 100%;    /*sticky footer*/
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    color: #31405B;
+    
+}
+
+body > *{
+    flex-shrink: 0;  /*sticky footer*/
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+fieldset{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+legend{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.main-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;  
+}
+
+.bgcolor{
+    background-color: #F2F8F6;
+}
+
+.inner-page-tours{
+    padding-top: 60px;
+    padding-bottom: 98px;
+}
+
+.inner-page-tours-header{
+    text-align: center;
+}
+
+.inner-page-tracking{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.inner-page-contacts{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}

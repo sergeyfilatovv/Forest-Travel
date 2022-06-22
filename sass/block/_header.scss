@@ -1,0 +1,126 @@
+
+.header{
+    position: relative;
+    height: 800px;
+    background-color: #265847;
+    background-image: url(../img/header/header-bg.jpg);
+    background-position: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.header-inner{
+    height: 100px;
+    background-color: #265847;
+    background-image: url(../img/header/header-img-small-bg.jpg);
+    background-position: center;
+
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.nav{
+    font-size: 22px;
+   
+}
+
+.header-nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+}
+
+.header-nav-button{
+    display: none;
+}
+
+.header-nav-list-item{
+    margin-right: 50px;
+}
+
+.header-nav-list-item:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-content{   
+    position: absolute;
+    width: 1170px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 1;
+}
+
+.header-content p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+
+    margin-top: 20px;
+}
+
+.header-scroll{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    
+    display: inline-block;
+    padding-bottom: 34px;
+    
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.header-scroll::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    
+    background-image: url("../img/header/arrow-down.svg");
+}

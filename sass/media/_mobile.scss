@@ -1,0 +1,302 @@
+@media(max-width:899px){
+    /* INDEX */
+
+    /* header */
+
+    .container{
+        width: 600px;
+    }
+
+    .header-top{
+        width: 100%;
+ 
+    }
+
+    .header-content{
+        width: 100%;
+ 
+    }
+
+    .header-title{
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .header-content p{
+        font-size: 20px;
+    }
+
+    /* main */
+
+
+    .main{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .container > .main-row:first-child{
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+    }
+
+    .main-content{
+        width: auto;
+    }
+
+    .main-img{
+        width: 170px;
+        margin-right: 30px;
+        flex-shrink: 0;
+
+    }
+
+    .main-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main-header{
+        font-size: 42px;
+        }  
+        
+    .main-content-text{
+        font-size: 16px;
+    }
+
+    .button{
+        height: 46px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+        line-height: 46px;
+    }
+
+    /* Footer */
+
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+    .footer-row{
+        flex-wrap: wrap;
+    }
+
+    .footer-widget-wrapper{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer-widget-wrapper > *{
+        width: calc(50% - 15px);
+    }
+
+    .footer-copyright{
+        order: 1;
+    }
+
+    /* TOURS */
+
+    /* header */
+
+    .header-top{
+        width: 600px;
+    }
+    
+    /* main */
+
+    .inner-page-tours{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .main-header{
+        font-size: 42px;
+    }
+
+    .card-first-row{
+        flex-direction: column;
+    }
+
+    .card-first-row > *{
+        margin-bottom: 30px;
+    }
+
+    .card-first-row > *:last-child{
+        margin-bottom: 0px;
+    }
+
+    .card{
+        width: 570px;
+    }
+
+    .card img{
+        object-fit: cover;
+    }
+
+    .card-second-row{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-second-row-columns{
+        margin-bottom: 30px;
+    }
+
+    .card.bigger{
+        width: 570px;
+        height: 270px;
+    }
+
+    .card.bigger img{
+        width: 570px;
+        height: 210px;
+         
+    }
+
+    .card-small{
+        width: 570px;
+        height: 270px;
+    }
+
+    .card-small img{
+        height: 210px;
+        object-fit: cover;
+    }
+
+    /* TRACKING */
+
+    /* header */
+    .header-inner{
+        height: 80px;
+    }
+
+     .nav{
+        margin-right: 18px;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+    /* main */
+
+    .inner-page-tracking{
+        padding-top: 30px;
+    } 
+
+    .row-article-page{
+        flex-direction: column-reverse;
+    }
+
+    .article-page-nav{
+        width: 570px;
+    }
+
+    .article-page-nav-title{
+        margin-bottom: 20px;
+    }
+
+
+    .article-page-article{
+        margin-bottom: 44px;
+    }
+
+    .article-page-article h1{
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    .article-page-article h2{
+        line-height: 2;
+    }
+
+    .article-page-article p{
+        font-size: 16px;
+    }
+
+    .article-page-article img {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /* footer */
+
+    .footer{
+        padding-top: 14px;
+    }
+
+    .footer-row{
+        margin-top: 15px;
+    }
+
+    .footer-widget-wrapper{
+        margin-bottom: 36px;
+    }
+
+    .footer-widget-title{
+        margin-bottom: 20px;
+    }
+
+    /* contacts */
+
+    /* main */
+
+    .inner-page-contacts{
+        padding-bottom: 40px;
+    }
+
+    .main-header{
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    .contact-row{
+        flex-direction: column;
+    }
+
+    .contact-info{
+        display: block;
+        
+
+        width: 570px;
+        margin-bottom: 40px;
+    }
+
+
+    .contact-info > *:last-of-type > .contact-block-body{
+        width: 570px;
+        height: 310px;
+    }
+
+    .contact-block-title{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .contact-list-icons{
+        font-size: 18px;
+    }
+
+
+    .contact-block + .contact-block{
+        margin-top: 40px;
+    }
+
+    .contact-form{
+        width: 570px;
+    }
+
+    .form{
+        width: 570px;
+
+        padding-bottom: 30px;
+    }
+
+    .form-group:nth-last-of-type(1){
+        margin-bottom: 30px;
+    }
+    
+
+}

@@ -1,0 +1,271 @@
+@media(max-width:1199px){
+    /* INDEX */
+
+    /* header */
+
+    .container{
+        width: 900px;
+    }
+
+    .header{
+        height: 591px;
+    }
+    .header-top{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+
+    .header-content{
+        width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;  
+    }
+
+    .header-nav-button{
+        display: block;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+
+    .header-nav-list{
+        display: none;
+    }
+
+    .header-title{
+        font-size: 52px;
+    }
+
+    .header-scroll{
+        font-size: 0px;
+    }
+
+    /* main */
+
+    .main{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .container > .main-row:first-child{
+        margin-bottom: 80px;
+    }
+
+    .main-content{
+        width: 420px;
+    }
+
+    .main-img{
+        width: 420px;
+    }
+
+    .main-header{
+    font-size: 50px;
+    }   
+
+    .main-content-text{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    .footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-copyright .footer-copyright-logo{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .footer-copyright p{
+        font-size: 14px;
+    }
+
+    
+
+    .footer-widget-services{
+        display: none;
+    }
+
+    .footer-widget-title{
+        margin-bottom: 20px;
+    }
+
+    
+
+    /* TOURS */
+
+    /* header */
+
+    .header-top{
+        width: 900px;
+    }
+
+    /* main */
+
+    .inner-page-tours{
+        padding-bottom: 60px;
+
+    }
+
+    .card-wrapper{
+        margin-top: 40px;
+
+    }
+
+    .card-first-row > *{
+        width: calc(50% - 15px);
+        height: 300px;
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+    }
+
+    .card img{
+        height: 240px;
+    }
+
+    .card-title-wrapper{
+        height: 60px;
+        padding: 13px 20px 16px 20px;
+
+    }
+
+    .card-wrapper h2{
+        font-size: 24px;
+    }
+
+    .card-second-row-columns{
+        width: 495px;
+    }
+
+    .card.bigger{
+        width: 495px;
+        height: 270px;
+    }
+
+    .card.bigger img{
+        width: 495px;
+        height: 210px;
+    }
+
+    .card-small{
+        width: 345px;
+        height: 570px;
+    }
+
+    .card-small img{
+        height: 510px;
+    }
+
+    /* TRACKING */
+
+    /* header */
+
+    /* / header */
+
+    /* main */
+
+    .inner-page-tracking{
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .article-page-article{
+        width: 570px;
+    }
+
+    .article-page-nav-list a{
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .article-page-article h1{
+        font-size: 50px;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .article-page-article p{
+        font-size: 18px;
+    }
+
+    .article-page-article img{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    /* footer */
+
+    .footer-row{
+        margin-top: 0px;
+    }
+
+    .footer-widget-info{
+        width: 195px;
+
+    }
+
+    .footer-widget-title{
+        margin-bottom: 25px;
+    }
+
+    /* contacts */
+
+    .inner-page-contacts{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .main-header{
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .contact-row{
+        flex-direction: column;
+    }
+
+    .contact-info{
+        display: flex;
+        justify-content: space-between;
+
+        width: 870px;
+        margin-bottom: 40px;
+    }
+
+    .contact-info > *:last-of-type > .contact-block-body{
+        width: 420px;
+        height: 310px;
+    }
+
+    .contact-block-title{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .contact-list-icons{
+        font-size: 18px;
+    }
+
+    .contact-block + .contact-block{
+        margin-top: 0px;
+    }
+
+    .contact-form{
+        width: 870px;
+    }
+
+    .form{
+        width: 870px;
+    }
+
+    
+
+
+}
